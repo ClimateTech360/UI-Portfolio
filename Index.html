@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UI Portfolio - John Watson</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -18,10 +19,27 @@
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
-            <a href="#">Blog</a>
-            <a href="#">Pages</a>
+
+            <div class="dropdown">
+                <a href="#">Blog ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Latest Posts</a>
+                    <a href="#">Categories</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">Pages ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Portfolio</a>
+                    <a href="#">Testimonials</a>
+                </div>
+            </div>
+
             <a href="#">Contact</a>
-            <button class="hire-btn">Hire Me</button>
+
+            <button class="icon-btn" id="search-btn">🔍</button>
+            <button class="icon-btn" id="mode-toggle">🌙</button>
         </nav>
     </header>
 
@@ -37,10 +55,212 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="pic.jpg" alt="John Watson">
+            <img src="pic1.jpg" alt="John Watson">
         </div>
 
     </section>
+
+    <section class="about">
+        <div class="about-image">
+            <img src="pic2.jpg" alt="John Watson">
+        </div>
+        <div class="about-content">
+            <h4>MY BIOGRAPHY</h4>
+            <h1>A Lead UI Designer & Web Developer<br>Based In UK</h1>
+            <p>I love Graphic design and Photography and have been working on my portfolio since 2016.
+                I can give your business a new Creative start right away! Contact me and we will discuss your projects!
+            </p>
+            <div class="personal-info">
+                <p><strong>Name:</strong> John Watson</p>
+                <p><strong>From:</strong> London, UK</p>
+                <p><strong>Email:</strong> example@mail.com</p>
+                <p><strong>Phone:</strong> +21 234 567 8901</p>
+            </div>
+
+
+            <div class="social-links">
+                <span>Follow me on</span>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="about-buttons">
+                <button class="hire-me">Hire me</button>
+                <button class="download-cv">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <h2>What I Do For You</h2>
+
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-laptop-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-mobile-alt service-icon"></i>
+                <h3>App Development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-camera service-icon"></i>
+                <h3>Photography</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+            </div>
+        </div>
+
+        <div class="more-services">
+            <a href="#">More Services ➔</a>
+        </div>
+        <section id="skills" class="skills-section">
+            <div class="skills-container">
+
+                <div class="skills-image">
+                    <img src="pic3.jpg" alt="Skills Image">
+                </div>
+
+                <div class="skills-content">
+                    <p class="small-heading">MY SKILLS</p>
+                    <h2>My Featured Skills</h2>
+                    <p class="skills-description">
+                        I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work.
+                        I am always ready to impress the audience with my Creativity.
+                    </p>
+
+                    <div class="skill">
+                        <p>UI/UX Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Ideas & Technology</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Branding Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Responsive Web Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="services">
+            <div class="services-left">
+                <div class="service-box">
+                    <i class="icon">🌐</i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="service-box">
+                    <i class="icon">🎨</i>
+                    <h3>Design Trends</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="service-box">
+                    <i class="icon">📊</i>
+                    <h3>Research & Analysis</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="service-box">
+                    <i class="icon">🎧</i>
+                    <h3>Customer Support</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="service-box">
+                    <i class="icon">📱</i>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="service-box">
+                    <i class="icon">📁</i>
+                    <h3>PSD Design</h3>
+                    <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                </div>
+            </div>
+            <div class="services-right">
+                <img src="pic1.jpg" alt="John Watson">
+            </div>
+        </section>
+        <section class="stats-section">
+            <div class="stat-box">
+                <h2>135</h2>
+                <p>Finished Projects</p>
+            </div>
+            <div class="stat-box">
+                <h2>225</h2>
+                <p>Working Hours</p>
+            </div>
+            <div class="stat-box">
+                <h2>115</h2>
+                <p>Online Support</p>
+            </div>
+            <div class="stat-box">
+                <h2>272</h2>
+                <p>Happy Customers</p>
+            </div>
+        </section>
+        <section class="gallery-section">
+            <h2>My Success Work</h2>
+            <div class="gallery-grid">
+                <img src="img1.jpg" alt="Work 1">
+                <img src="img2.jpg" alt="Work 2">
+                <img src="img3.jpg" alt="Work 3">
+                <img src="img4.jpg" alt="Work 4">
+                <img src="img5.jpg" alt="Work 5">
+                <img src="img6.jpg" alt="Work 6">
+            </div>
+        </section>
+
+        <section class="logo-banner">
+            <div class="logo-container">
+                <img src="logo1.png" alt="Logo 1">
+                <img src="logo2.png" alt="Logo 2">
+                <img src="logo3.png" alt="Logo 3">
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-content">
+                    <img src="your-logo.png" alt="Logo" class="footer-logo" />
+                    <h2>UI Portfolio</h2>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +12 345 678 900</p>
+                        <p><i class="fas fa-envelope"></i> info@example.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 208 Avenue street, UK - 62617</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2022 UI Portfolio. All Rights Reserved</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                </div>
+                <button class="scroll-up"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </footer>
 
 </body>
 
