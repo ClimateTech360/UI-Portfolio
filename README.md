@@ -3,6 +3,7 @@ UI Portfolio - John Watson
 contributors 
     Patrick Obondo - obondopatrickotieno@gmail.com
     David ng'ang'a - dngangajm@gmail.com
+    Wiltord Ichingwa - wiltordichingwa@gmail.com
 
 Project Description
 This project is a personal portfolio website for John Watson, a UI/UX designer and web developer based in the UK. The website showcases John's professional biography, skills, services, portfolio works, and ways to contact him.
